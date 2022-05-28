@@ -1,1 +1,90 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+html, body{
+    background-color: white;
+    margin: 20px;
+    color: #3e4144;
+}
+button{
+    background-color: cadetblue;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+.centrado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row{
+    display: flex;
+}
+.col{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.danger-validation{
+    color: crimson;
+    margin: 5px 0px;
+}
+
+table{
+    border-collapse:collapse;
+    width:100%;
+  }
+
+  .blue{
+    border:2px solid #1ABC9C;
+  }
+
+  .blue thead{
+    background:#1ABC9C;
+  }
+
+  .purple{
+    border:2px solid #9B59B6;
+  }
+
+  .purple thead{
+    background:#9B59B6;
+  }
+
+  thead{
+    color:white;
+  }
+
+  th,td{
+    text-align:left;
+    padding:5px;
+  }
+
+  tbody tr:nth-child(even){
+    background:#ECF0F1;
+  }
+
+  tbody tr:hover{
+  background:#BDC3C7;
+    color:#FFFFFF;
+  }
+
+  .fixed{
+    top:0;
+    position:fixed;
+    width:auto;
+    display:none;
+    border:none;
+  }
+
+  .scrollMore{
+    margin-top:600px;
+  }
+
+  .up{
+    cursor:pointer;
+  }
