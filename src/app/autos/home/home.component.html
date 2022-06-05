@@ -1,18 +1,11 @@
-<h1>Listado de autos</h1>
+<h1>Inicio</h1>
 <div class="row">
     <div class="col">
-        <app-listado-autos [lstAutos]="lstAutos"></app-listado-autos>
+        <!-- <app-listado-autos [lstAutos]="lstAutos"></app-listado-autos> -->
+        <app-listado-autos></app-listado-autos>
     </div>
     <div class="col">
-        <h3>Agregar</h3>
-        <hr>
-        <form (submit)="agregar()">
-            <input type="text" placeholder="Marca" name="marca" [(ngModel)]="objNuevo.marca" >
-            <input type="text" placeholder="Modelo" name="modelo" [(ngModel)]="objNuevo.modelo" >
-            <input type="number" placeholder="Monto del Crédito" name="precio" [(ngModel)]="objNuevo.precio" >
-            <button type="submit">Agregar</button>
-        </form>
-        <h5 class="danger-validation">{{campoRequerido}}</h5>
+        <app-agregar-auto></app-agregar-auto>
     </div>
 </div>
 

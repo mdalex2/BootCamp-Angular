@@ -3,13 +3,16 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 import { ListadoAutosComponent } from './listado-autos/listado-autos.component';
+import { AgregarAutoComponent } from './agregar-auto/agregar-auto.component';
+import { AutoService } from './auto.service';
 
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    ListadoAutosComponent
+    ListadoAutosComponent,
+    AgregarAutoComponent
   ],
   imports: [
     CommonModule,
@@ -17,6 +20,9 @@ import { ListadoAutosComponent } from './listado-autos/listado-autos.component';
   ],
   exports: [
     HomeComponent
+  ],
+  providers:[
+    AutoService
   ]
 })
 export class AutosModule { }

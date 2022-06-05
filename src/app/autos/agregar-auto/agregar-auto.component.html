@@ -1,0 +1,9 @@
+<h3>Agregar</h3>
+<hr>
+<form (submit)="agregar()">
+    <input type="text" placeholder="Marca" name="marca" [(ngModel)]="objNuevo.marca" class="form-control" >
+    <input type="text" placeholder="Modelo" name="modelo" [(ngModel)]="objNuevo.modelo" class="form-control" >
+    <input type="number" placeholder="Monto del Crédito" name="precio" [(ngModel)]="objNuevo.precio" class="form-control">
+    <h5 class="danger-validation">{{campoRequerido}}</h5>
+    <button type="submit">Agregar</button>
+</form>
