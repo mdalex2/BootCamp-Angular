@@ -1,0 +1,58 @@
+<h1>Pipes Básicos</h1>
+
+<div class="contenedor">
+   <div class="contenedor-item">
+        <mat-card>
+           <mat-card-title>Uppercase</mat-card-title>
+           <mat-card-subtitle>{{nombre | uppercase}}</mat-card-subtitle>
+           <mat-card-content>Convertir a mayúsculas</mat-card-content>
+        </mat-card>
+   </div>
+
+   <div class="contenedor-item">
+    <mat-card>
+      <mat-card-title>lowercase</mat-card-title>
+      <mat-card-title>{{apellido | lowercase}}</mat-card-title>
+      <mat-card-content>Convertir minusculas</mat-card-content>
+   </mat-card>
+  </div>
+
+  <div class="contenedor-item">
+    <mat-card>
+      <mat-card-title> titlecase</mat-card-title>
+      <mat-card-title>{{nombreCompleto | titlecase}}</mat-card-title>
+      <mat-card-content>Primera leta Mayúscula</mat-card-content>
+   </mat-card>
+  </div>
+</div>
+<h1>Pipes fechas</h1>
+
+<div class="contenedor">
+   <div class="contenedor-item">
+      <mat-card>
+         <mat-card-title>Fechas</mat-card-title>
+         <mat-card-subtitle>{{fecha}}</mat-card-subtitle>
+      </mat-card>
+   </div>
+
+   <div class="contenedor-item">
+      <mat-card>
+         <mat-card-title>Fechas</mat-card-title>
+         <mat-card-subtitle>{{fecha | date}}</mat-card-subtitle>
+      </mat-card>
+   </div>
+
+   <div class="contenedor-item">
+      <mat-card>
+         <mat-card-title>Fechas formato  date:'short'</mat-card-title>
+         <mat-card-subtitle>{{fecha | date:'short' }}</mat-card-subtitle>
+      </mat-card>
+   </div>
+   <div class="contenedor-item">
+      <mat-card>
+         <mat-card-title>Fechas formato  date:'dd/MMMM/yyyy' con pipe mayus</mat-card-title>
+         <mat-card-subtitle>{{fecha | date:'dd/MMMM/yyyy' | uppercase }}</mat-card-subtitle>
+      </mat-card>
+   </div>
+
+</div>
