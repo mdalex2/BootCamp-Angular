@@ -1,0 +1,15 @@
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\bin\Debug\net6.0\OrientadoObjetos.exe
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\bin\Debug\net6.0\OrientadoObjetos.deps.json
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\bin\Debug\net6.0\OrientadoObjetos.runtimeconfig.json
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\bin\Debug\net6.0\OrientadoObjetos.dll
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\bin\Debug\net6.0\OrientadoObjetos.pdb
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\obj\Debug\net6.0\OrientadoObjetos.csproj.AssemblyReference.cache
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\obj\Debug\net6.0\OrientadoObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\obj\Debug\net6.0\OrientadoObjetos.AssemblyInfoInputs.cache
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\obj\Debug\net6.0\OrientadoObjetos.AssemblyInfo.cs
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\obj\Debug\net6.0\OrientadoObjetos.csproj.CoreCompileInputs.cache
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\obj\Debug\net6.0\OrientadoObjetos.dll
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\obj\Debug\net6.0\refint\OrientadoObjetos.dll
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\obj\Debug\net6.0\OrientadoObjetos.pdb
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\obj\Debug\net6.0\OrientadoObjetos.genruntimeconfig.cache
+C:\Bootcamp-Angular\csharp\OrientadoObjetos\obj\Debug\net6.0\ref\OrientadoObjetos.dll
