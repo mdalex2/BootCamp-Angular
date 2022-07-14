@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <button mat-button [matMenuTriggerFor]="belowMenu">Archivo</button>
+    <mat-menu #belowMenu="matMenu" yPosition="below">
+      <button mat-menu-item routerLink=""><mat-icon>home</mat-icon> Inicio</button>
+      <button mat-menu-item routerLink="material1"><mat-icon>apps</mat-icon> Ejemplo Tabla Material</button>
+      <button mat-menu-item routerLink="material2"><mat-icon>apps</mat-icon>Pipes Basicos curso</button>
+      <!-- <button mat-menu-item routerLink="otros"><mat-icon>build</mat-icon>Otros</button> -->
+    </mat-menu>
+  </mat-toolbar>
