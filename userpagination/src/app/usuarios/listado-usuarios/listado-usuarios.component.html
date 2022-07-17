@@ -1,0 +1,46 @@
+<div class="contenedor">
+    <div class="contenedor-item">
+        <h1>Listado de usuarios</h1>
+    </div>
+</div>
+<div *ngIf="resultados">
+    <table mat-table [dataSource]="resultados" class="mat-elevation-z8">
+        <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef> Id </th>
+            <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="avatar">
+            <th mat-header-cell *matHeaderCellDef> Avatar </th>
+            <td mat-cell *matCellDef="let element">
+                <img [src]="element.avatar"  style="width: 3.5rem;border-radius:100%;"/>
+            </td>
+        </ng-container>
+
+        <ng-container matColumnDef="first_name">
+            <th mat-header-cell *matHeaderCellDef> Nombres </th>
+            <td mat-cell *matCellDef="let element"> {{element.first_name}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="last_name">
+            <th mat-header-cell *matHeaderCellDef> Apellidos </th>
+            <td mat-cell *matCellDef="let element"> {{element.last_name}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="email">
+            <th mat-header-cell *matHeaderCellDef> Email </th>
+            <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+    <mat-paginator
+        [length]="totalRegistros"
+               [pageSize]="totalRegistrosPorPagina"
+               [pageSizeOptions]="[3,6,9,100,1000]"
+               (page)="onPaginadoChange($event)"
+               aria-label="Select page">
+    </mat-paginator>
+</div>
