@@ -6,7 +6,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
-import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatPaginatorIntl, MatPaginatorModule} from '@angular/material/paginator';
+import { MatPaginatorIntlEs } from '../usuarios/MatPaginatorIntlEs'; //para lenguaje paginator
 
 @NgModule({
   declarations: [],
@@ -24,6 +25,9 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatButtonModule,
     MatTableModule,
     MatPaginatorModule
+  ],
+  providers: [
+    {provide: MatPaginatorIntl,useClass: MatPaginatorIntlEs} //para lenguaje paginator
   ]
 })
 export class MaterialModule { }

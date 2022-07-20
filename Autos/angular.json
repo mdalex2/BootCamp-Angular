@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "autos"
+  "defaultProject": "autos",
+  "cli": {
+    "analytics": false
+  }
 }
