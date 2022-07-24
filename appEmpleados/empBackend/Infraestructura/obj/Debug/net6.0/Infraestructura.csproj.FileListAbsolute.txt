@@ -1,0 +1,17 @@
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\bin\Debug\net6.0\Infraestructura.deps.json
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\bin\Debug\net6.0\Infraestructura.runtimeconfig.json
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\bin\Debug\net6.0\Infraestructura.dll
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\bin\Debug\net6.0\Infraestructura.pdb
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\bin\Debug\net6.0\Core.dll
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\bin\Debug\net6.0\Core.pdb
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\obj\Debug\net6.0\Infraestructura.csproj.AssemblyReference.cache
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\obj\Debug\net6.0\Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\obj\Debug\net6.0\Infraestructura.AssemblyInfoInputs.cache
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\obj\Debug\net6.0\Infraestructura.AssemblyInfo.cs
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\obj\Debug\net6.0\Infraestructura.csproj.CoreCompileInputs.cache
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\obj\Debug\net6.0\Infraestructura.csproj.CopyComplete
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\obj\Debug\net6.0\Infraestructura.dll
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\obj\Debug\net6.0\refint\Infraestructura.dll
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\obj\Debug\net6.0\Infraestructura.pdb
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\obj\Debug\net6.0\Infraestructura.genruntimeconfig.cache
+C:\BootCamp-Angular\appEmpleados\empBackend\Infraestructura\obj\Debug\net6.0\ref\Infraestructura.dll
