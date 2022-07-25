@@ -1,8 +1,8 @@
 <mat-toolbar color="primary">
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <button mat-icon-button [matMenuTriggerFor]="belowMenu" class="example-icon" aria-label="Menú">
       <mat-icon>menu</mat-icon>
     </button>
-    <button mat-button [matMenuTriggerFor]="belowMenu">Archivo</button>
+    <button mat-button mat-stroked-button [matMenuTriggerFor]="belowMenu">Archivo</button>
     <mat-menu #belowMenu="matMenu" yPosition="below">
       <button mat-menu-item routerLink=""><mat-icon>home</mat-icon> Inicio</button>
       <button mat-menu-item routerLink="material1"><mat-icon>apps</mat-icon> Ejemplo Tabla Material</button>

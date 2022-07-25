@@ -6,19 +6,10 @@ import { NumerosComponent } from './principal/numeros/numeros.component';
 import { OtrosComponent } from './principal/otros/otros.component';
 
 const routes: Routes = [
-  {
-   path: '', component: BasicosComponent, pathMatch: 'full'
-  },
-  {
-   path: 'numeros', component: NumerosComponent
-  },
-  {
-   path: 'otros', component: OtrosComponent
-  },
-  {
-   path: '**', redirectTo:''
-  }
-
+  { path: '', component: BasicosComponent, pathMatch: 'full' },
+  { path: 'numeros', component: NumerosComponent },
+  { path: 'otros', component: OtrosComponent },
+  { path: '**', redirectTo:'' }
 ];
 
 
